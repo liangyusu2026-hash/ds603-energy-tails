@@ -1,0 +1,15 @@
+# Mac system files
+.DS_Store
+
+# Jupyter auto-saves
+.ipynb_checkpoints/
+
+# Python caches and environments
+__pycache__/
+.venv/
+
+# Secrets and licensed data (never push)
+.env
+data/raw/wrds/
+
+.vscode/
