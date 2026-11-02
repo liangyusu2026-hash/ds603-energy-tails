@@ -31,6 +31,7 @@ notebooks/01_tails_and_bounds.ipynb    Stages 1–4: description, Normal vs t, M
 notebooks/02_monte_carlo_lln_clt.ipynb Monte Carlo LLN and CLT
 outputs/figures/                       all figures
 outputs/tables/                        tail-probability table
+outputs/presentation/                  slide deck (PDF)
 ```
 
 
@@ -60,7 +61,7 @@ outputs/tables/                        tail-probability table
 
   ![LLN simulation paths](outputs/figures/fig_lln_paths.png)
 
-- **Averages of fat-tailed returns become Normal (CLT).** With Student's t (ν = 3) returns, the standardised sample mean was still more peaked than a Normal at n = 5 (peak ≈ 0.5 vs 0.4), but by n = 30 it was close and by n = 200 it matched the standard Normal. The CLT holds because the variance is finite when ν > 2. Daily returns are not Normal, but averages over a month or more are, so Normal-based tools suit average returns, not single extreme days.
+- **Averages of fat-tailed returns become Normal (CLT).** With Student's t (ν = 3) returns, the standardised sample mean was still more peaked than a Normal at n = 5 (peak ≈ 0.5 vs 0.4), but at n = 30 it was closer but still slightly peaked, and by n = 200 it matched the standard Normal and by n = 200 it matched the standard Normal. The CLT holds because the variance is finite when ν > 2. Daily returns are not Normal, but averages over a month or more are, so Normal-based tools suit average returns, not single extreme days.
 
   ![CLT under Student's t returns](outputs/figures/fig_clt_t3.png)
 
